@@ -1,0 +1,123 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Osamah Al-Naggar",
+      "username": "osama123",
+      "password": "password",
+      "location": "E-5-5 East Lake Residence, Serdang Taman Perdana",
+      "balance": 253.14,
+      "role": "customer"
+    },
+    {
+      "id": 2,
+      "name": "Sohaib Aboosbua",
+      "username": "soziz123",
+      "password": "password",
+      "role": "manager"
+    },
+    {
+      "id": 3,
+      "name": "Adel Zeinab",
+      "username": "adana123",
+      "password": "password",
+      "role": "admin"
+    },
+    {
+      "id": 4,
+      "name": "Mahmood Qaid",
+      "username": "mahmood123",
+      "password": "password",
+      "role": "courier"
+    },
+    {
+      "id": 5,
+      "name": "Hokkaido Foods",
+      "username": "nippon123",
+      "password": "password",
+      "role": "vendor"
+    }
+  ],
+  "vendors": [
+    {
+      "vendor_id": 5,
+      "menu": [
+        {
+          "item_id": 1,
+          "item_name": "Takoyaki Puffs",
+          "item_price": 20,
+          "item_description": "crispy takoyaki cheese stuffed fried puffs",
+          "is_available": true
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "order_id": 1,
+      "customer_id": 1,
+      "vendor_id": 5,
+      "task_id": null,
+      "items": [
+        {
+          "item_id": 1,
+          "quantity": 3
+        }
+      ],
+      "items_total": 60,
+      "delivery_charge": null,
+      "order_type": "takeaway",
+      "review_stars": 5,
+      "review_message": "Delicious and well-packed!",
+      "order_date": "2024-08-12T12:43:41Z",
+      "order_status": "PICKED_UP",
+      "order_total": 70
+    },
+    {
+      "order_id": 2,
+      "customer_id": 1,
+      "vendor_id": 5,
+      "task_id": null,
+      "items": [
+        {
+          "item_id": 1,
+          "quantity": 3
+        }
+      ],
+      "items_total": 60,
+      "delivery_charge": 10,
+      "order_type": "delivery",
+      "review_stars": null,
+      "review_message": null,
+      "order_date": "2024-08-12T12:43:41Z",
+      "order_status": "PENDING_COURIER",
+      "order_total": 70
+    }
+  ],
+  "transactions": [
+    {
+      "transaction_id": 1,
+      "admin_id": 3,
+      "customer_id": 1,
+      "transaction_date": "2024-08-12T12:43:41Z",
+      "transaction_amount": 120,
+      "transaction_status": "complete"
+    }
+  ],
+  "delivery_tasks": [
+    {
+      "task_id": 0,
+      "courier_id": 0,
+      "order_id": 0,
+      "task_date": "2024-08-12T12:43:41Z"
+    }
+  ],
+  "complains": [
+    {
+      "complain_id": 1,
+      "customer_id": 1,
+      "order_id": 1,
+      "complain_message": "The delivery was late, but the food was good."
+    }
+  ]
+}
