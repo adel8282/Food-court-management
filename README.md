@@ -1,6 +1,6 @@
 # Food Delivery & Management System  
 
-# A comprehensive platform for managing food delivery, takeaway, and dine-in services. This system involves **Vendors**, **Customers**, **Delivery Couriers**, **Admins**, and **Managers** with unique functionalities and a defined **order status flow**.
+A comprehensive platform for managing food delivery, takeaway, and dine-in services. This system involves **Vendors**, **Customers**, **Delivery Couriers**, **Admins**, and **Managers** with unique functionalities and a defined **order status flow**.
 
 **Form Size for Menus Should Be 900x660**
 
